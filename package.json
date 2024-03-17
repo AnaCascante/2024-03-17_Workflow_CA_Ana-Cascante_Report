@@ -1,5 +1,5 @@
 {
-  "name": "css-frameworks-ca",
+  "name": "ana-workflowca",
   "version": "1.0.0",
   "description": "Test",
   "main": "index.js",
@@ -11,7 +11,7 @@
     
   },
   "keywords": [],
-  "author": "Noroff",
+  "author": "Noroff,Ana Cascante",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.57.0",
