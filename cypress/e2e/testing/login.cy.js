@@ -18,6 +18,9 @@ describe("Login and Profile Access", () => {
 
         // Assert that the user's profile is displayed
         cy.get(".profile").should("be.visible");
+
+        // Assert the presence of user data in localStorage
+        cy.window().its('localStorage').invoke('getItem', 'userProfile').should('not.be.null');
     });
 });
 
