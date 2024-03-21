@@ -16,6 +16,15 @@
           "no-unused-vars": "off"
         }
       }
+      {
+        "files": ["**/*.test.js"], 
+        "env": { "jest/globals": true }, 
+        "extends": ["plugin:jest/recommended"],
+        "plugins": ["jest"],
+        "rules": {
+          "jest/no-disabled-tests": "warn"
+        }
+      }
     ],
     "parserOptions": {
       "ecmaVersion": "latest",
